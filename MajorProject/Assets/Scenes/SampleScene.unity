@@ -119,11 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!224 &58810616 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 5995036277581915766, guid: 07cbe03012d04144da439e373a202178, type: 3}
-  m_PrefabInstance: {fileID: 4509423356640603574}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &119375091
 GameObject:
   m_ObjectHideFlags: 0
@@ -605,11 +600,13 @@ MonoBehaviour:
       anchoredPos: {x: -200, y: -120}
       yaw: 270
       viewAngle: 360
+      rotationZ: 180
     - label: B Block
       targetIndex: 1
       anchoredPos: {x: 200, y: -120}
       yaw: 90
       viewAngle: 360
+      rotationZ: 0
   - panoramaMaterial: {fileID: 2100000, guid: 3b67a33784caa4b448551019d01f7e76, type: 2}
     hotspots:
     - label: A Block
@@ -617,19 +614,129 @@ MonoBehaviour:
       anchoredPos: {x: -200, y: -120}
       yaw: 270
       viewAngle: 360
+      rotationZ: 180
     - label: C Block
       targetIndex: 2
       anchoredPos: {x: 200, y: -120}
       yaw: 90
       viewAngle: 360
+      rotationZ: 0
   - panoramaMaterial: {fileID: 2100000, guid: d5e25ccd4b601fb4595e703789e71281, type: 2}
-    hotspots: []
+    hotspots:
+    - label: B Block
+      targetIndex: 1
+      anchoredPos: {x: -200, y: -120}
+      yaw: 270
+      viewAngle: 360
+      rotationZ: 180
+    - label: Canteen
+      targetIndex: 4
+      anchoredPos: {x: 200, y: -120}
+      yaw: 90
+      viewAngle: 360
+      rotationZ: 0
   - panoramaMaterial: {fileID: 2100000, guid: 588583e9d254da046869d2573347764c, type: 2}
+    hotspots:
+    - label: D Block
+      targetIndex: 5
+      anchoredPos: {x: -200, y: -120}
+      yaw: 270
+      viewAngle: 360
+      rotationZ: 90
+    - label: PG Block
+      targetIndex: 6
+      anchoredPos: {x: 200, y: -120}
+      yaw: 90
+      viewAngle: 360
+      rotationZ: -90
+  - panoramaMaterial: {fileID: 2100000, guid: 8323965fd26643f4e89971694830fb53, type: 2}
+    hotspots:
+    - label: Foot Path
+      targetIndex: 7
+      anchoredPos: {x: 0, y: -120}
+      yaw: 0
+      viewAngle: 360
+      rotationZ: -90
+    - label: C Block
+      targetIndex: 2
+      anchoredPos: {x: 0, y: 80}
+      yaw: 180
+      viewAngle: 360
+      rotationZ: 90
+  - panoramaMaterial: {fileID: 2100000, guid: f87fef1ed6695ce43a55a8353a477140, type: 2}
     hotspots: []
   - panoramaMaterial: {fileID: 2100000, guid: 1ccaa54122947e041a64286b0de33595, type: 2}
     hotspots: []
-  - panoramaMaterial: {fileID: 2100000, guid: f87fef1ed6695ce43a55a8353a477140, type: 2}
-    hotspots: []
+  - panoramaMaterial: {fileID: 2100000, guid: b0557fb73410157448d3637a39faee7e, type: 2}
+    hotspots:
+    - label: coca cola canteen
+      targetIndex: 4
+      anchoredPos: {x: 0, y: 80}
+      yaw: 180
+      viewAngle: 360
+      rotationZ: 90
+    - label: path to circle
+      targetIndex: 8
+      anchoredPos: {x: 0, y: -120}
+      yaw: 0
+      viewAngle: 360
+      rotationZ: -90
+  - panoramaMaterial: {fileID: 2100000, guid: ab89ed4f4e53b2248a8617ad33a6038d, type: 2}
+    hotspots:
+    - label: foot path 2
+      targetIndex: 7
+      anchoredPos: {x: 0, y: 80}
+      yaw: 180
+      viewAngle: 360
+      rotationZ: 90
+    - label: coca cola canteen
+      targetIndex: 9
+      anchoredPos: {x: 0, y: -120}
+      yaw: 0
+      viewAngle: 360
+      rotationZ: -90
+  - panoramaMaterial: {fileID: 2100000, guid: 9c3eefd267fb00845a887505403d5127, type: 2}
+    hotspots:
+    - label: foot path 1
+      targetIndex: 8
+      anchoredPos: {x: -200, y: -120}
+      yaw: 270
+      viewAngle: 360
+      rotationZ: 180
+    - label: circle
+      targetIndex: 10
+      anchoredPos: {x: 200, y: -120}
+      yaw: 90
+      viewAngle: 360
+      rotationZ: 0
+  - panoramaMaterial: {fileID: 2100000, guid: 66d277240c8bec44ca8eb0c24d3a701e, type: 2}
+    hotspots:
+    - label: to hanuman path
+      targetIndex: 11
+      anchoredPos: {x: 0, y: -120}
+      yaw: 0
+      viewAngle: 360
+      rotationZ: -90
+    - label: ganesh
+      targetIndex: 9
+      anchoredPos: {x: 0, y: 80}
+      yaw: 180
+      viewAngle: 360
+      rotationZ: 90
+  - panoramaMaterial: {fileID: 2100000, guid: f004c5ecdc75efa4eb1f07e5ce8c5f8a, type: 2}
+    hotspots:
+    - label: foot path 1
+      targetIndex: 9
+      anchoredPos: {x: 0, y: 80}
+      yaw: 180
+      viewAngle: 360
+      rotationZ: 90
+    - label: circle
+      targetIndex: 9
+      anchoredPos: {x: 0, y: 80}
+      yaw: 180
+      viewAngle: 360
+      rotationZ: 90
   hotspotParent: {fileID: 1276284308}
   hotspotButtonPrefab: {fileID: 4906658800808242586, guid: 07cbe03012d04144da439e373a202178, type: 3}
   fadeDuration: 2
@@ -788,7 +895,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1276284308}
-  - {fileID: 58810616}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -813,103 +919,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!1001 &4509423356640603574
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1576982796}
-    m_Modifications:
-    - target: {fileID: 4906658800808242586, guid: 07cbe03012d04144da439e373a202178, type: 3}
-      propertyPath: m_Name
-      value: Button
-      objectReference: {fileID: 0}
-    - target: {fileID: 5995036277581915766, guid: 07cbe03012d04144da439e373a202178, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5995036277581915766, guid: 07cbe03012d04144da439e373a202178, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5995036277581915766, guid: 07cbe03012d04144da439e373a202178, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5995036277581915766, guid: 07cbe03012d04144da439e373a202178, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5995036277581915766, guid: 07cbe03012d04144da439e373a202178, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5995036277581915766, guid: 07cbe03012d04144da439e373a202178, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5995036277581915766, guid: 07cbe03012d04144da439e373a202178, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 160
-      objectReference: {fileID: 0}
-    - target: {fileID: 5995036277581915766, guid: 07cbe03012d04144da439e373a202178, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 5995036277581915766, guid: 07cbe03012d04144da439e373a202178, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5995036277581915766, guid: 07cbe03012d04144da439e373a202178, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5995036277581915766, guid: 07cbe03012d04144da439e373a202178, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5995036277581915766, guid: 07cbe03012d04144da439e373a202178, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5995036277581915766, guid: 07cbe03012d04144da439e373a202178, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5995036277581915766, guid: 07cbe03012d04144da439e373a202178, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5995036277581915766, guid: 07cbe03012d04144da439e373a202178, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5995036277581915766, guid: 07cbe03012d04144da439e373a202178, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 414.96808
-      objectReference: {fileID: 0}
-    - target: {fileID: 5995036277581915766, guid: 07cbe03012d04144da439e373a202178, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -436.99753
-      objectReference: {fileID: 0}
-    - target: {fileID: 5995036277581915766, guid: 07cbe03012d04144da439e373a202178, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5995036277581915766, guid: 07cbe03012d04144da439e373a202178, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5995036277581915766, guid: 07cbe03012d04144da439e373a202178, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 07cbe03012d04144da439e373a202178, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

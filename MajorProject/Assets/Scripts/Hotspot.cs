@@ -13,8 +13,12 @@ public class Hotspot
     public float yaw;             // 0–360 degrees
 
     [Tooltip("How wide the visible cone is around this direction (degrees).")]
-    public float viewAngle = 40f; // e.g. 40 means +/-20 degrees
+    public float viewAngle = 40f;
+
+    [Tooltip("UI rotation around Z (0 = right, 180 = left etc.)")]
+    public float rotationZ;
 
     // runtime fields (filled in by PanoramaManager)
-    [System.NonSerialized] public GameObject runtimeButton;
+    [System.NonSerialized]
+    public GameObject runtimeButton;
 }

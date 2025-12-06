@@ -141,6 +141,10 @@ public class PanoramaManager : MonoBehaviour
             RectTransform rt = btnObj.GetComponent<RectTransform>();
             rt.anchoredPosition = hs.anchoredPos;
 
+// NEW: rotate arrow per hotspot
+            rt.localEulerAngles = new Vector3(0f, 0f, hs.rotationZ);
+
+
             Button b = btnObj.GetComponent<Button>();
 
             b.onClick.RemoveAllListeners();
